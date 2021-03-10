@@ -10,13 +10,20 @@ if d>e:
   print("d is greater")
 else:
   print("e is greater")
+
+
+
 #Here is the task--Booleans.
 X=bool(1)
 Y=bool(0)
-Z="either X or Y"
-print(bool(Z))
-W="X!=Y"
-print(bool(W))
-
-
+Z=(X and not Y)or(Y and not X)
+if Z==True:
+  print("True")
+else:
+  print("False")
+W=(X!=Y)
+if Z==W:
+  print("Z==W")
+else:
+  print("Z!=W")
 
