@@ -1,4 +1,4 @@
-# may be i need four variables.three of them are used to make sum.the other one to count the times 
+# may be i need three variables. x and y are used to make sum. z is used to transfer the origin number of y
 count=13
 x=1
 y=1
