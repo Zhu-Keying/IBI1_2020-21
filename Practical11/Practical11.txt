@@ -1,0 +1,14 @@
+Sequence for human SOD2 protein vs Sequence of a mouse SOD2 protein
+BLOSUM62 score: 1091
+Percentage identity: 89.640%
+
+Sequence for human SOD2 protein vs A random sequence
+BLOSUM62 score: -250
+Percentage identity: 5.405%
+
+Sequence of a mouse SOD2 protein vs A random sequence
+BLOSUM62 score: -250
+Percentage identity: 5.856%
+
+Human gene and mouse gene have a percentage identity of 89.640%, which have a higher BLOSUM62 score compared with a random sequence. It shows that they share a close relationship. Above all, they are all mammal. Also,It shows that the BIOSUM matrix can help determine the genetic relationship between different organisms.
+ 
