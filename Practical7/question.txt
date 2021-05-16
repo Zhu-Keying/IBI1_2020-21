@@ -1,0 +1,10 @@
+Question: 
+How have new cases and total cases developed over time in Germany？
+
+The code start at line 71
+I found that in the case of Germany, the number of new cases remained low until 12 March 2020，is about 230.
+However, after this time, the number of new cases increased rapidly and fluctuated at higher levels.
+For the total number of cases in Spain, it has increased rapidly since March 12, 2020.
+I think this was because western countries' policy are diffirent from China. They did not pay much attention to the early stage of the epidemic.
+Also, due to human rights they can not use strict treatment like lockdown to  prevent isolation.
+Defeat of COVID-19 requires the attention of the country and the joint efforts of all the people.
