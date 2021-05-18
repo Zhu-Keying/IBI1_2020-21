@@ -10,7 +10,7 @@ for line in u:
     if line.startswith(">"):
             if 'unknown function' in line:
                 if x!=0:
-                    output.write(f'{name:30}'+str(length)+'\n'+seq)
+                    output.write('>'+f'{name:30}'+str(length)+'\n'+seq)
                 name=re.search(r'>([^ ]+)_mRNA',line).group(1)
                 seq=""
                 length=0
@@ -22,6 +22,8 @@ for line in u:
         if printout==True:
             seq=seq+line
             length=length+len(line)-1
-output.write(f'{name:30}'+str(length)+'\n'+seq)
+output.write('>'+f'{name:30}'+str(length)+'\n'+seq)
 u.close()
 output.close()
+file4 = open('unknown_function.fa','r')
+print(file4.read())
