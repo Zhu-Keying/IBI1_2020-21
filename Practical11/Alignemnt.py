@@ -1,7 +1,8 @@
+#input all datas
 file_name1 = input("please input the first fasta file name,for example SOD2_human.fa :")
 file_name2 = input("please input the second fasta file name,for example SOD2_mouse.fa :")
 file_name3 = input("please input the second fasta file name,for example RandomSeq.fa :")
-
+#open and read the content
 file1=open(file_name1)
 file2=open(file_name2)
 file3=open(file_name3)
@@ -31,7 +32,7 @@ def per(seq1,seq2):
             distance += 1
     per=str(distance/len(seq1)*100)+'%'
     return per
-
+#output the results
 print("the percentage of identical AA of human and mouse is: " +per(seq1,seq2))
 print("the percentage of identical AA of human and random is: " +per(seq1,seq3))
 print("the percentage of identical AA of mouse and random is: " +per(seq2,seq3))
