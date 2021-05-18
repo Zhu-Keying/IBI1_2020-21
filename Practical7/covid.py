@@ -21,7 +21,7 @@ for i in range (0,7996):
 y=covid_data.loc[data1,"total_cases"]
 print(y)
 
-#worldwide new cases
+#it contains worldwide new cases
 data2= []
 #choose data in covid_data with "location" = "World"
 for i in range (0,7996):
@@ -36,7 +36,7 @@ mean = str(np.mean(world_new_cases))
 median = str(np.median(world_new_cases))
 print("the mean and median of new cases for the entire world are "+mean+" and "+median)
 
-#create a boxplot 
+#create a boxplot with data 
 plt.title('Worldwide new cases')
 plt.ylabel('word_new_case_numbers')
 plt.xlabel('date')
