@@ -20,10 +20,11 @@ gencode = {
     "GCT":'A',"GCC":'A',"GCA":'A',"GCG":'A',
     "GAT":'D',"GAC":'D',"GAA":'E',"GAG":'E',
     "GGT":'G',"GGC":'G',"GGA":'G',"GGG":'G',}
-
+#define two value
 outputs = ''
 amino_acid = ''
 for line in og_file:
+    #similar to what i did in finding unknown function. use regular expression to search in line start with '>'
     if line.startswith('>'):
         output = re.search(r'>(.+?)\s',line)
         output = output[0]
@@ -42,5 +43,6 @@ for line in og_file:
 og_file.close()
 new_file.write(outputs)
 new_file.close()
+# below is another way to show the results, which is more convinient that file for me to see if there are problems in my code.
 file = open('Unknown DNA to protein.fa','r')
 print(file.read())
